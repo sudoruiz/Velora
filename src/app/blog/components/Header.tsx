@@ -1,11 +1,11 @@
+import Button from "@/components/Button";
 import Link from "next/link";
-import Button from "./Button";
 
 const Header = () => {
     return (
-        <div className="w-full flex justify-center">
-            <div className="hidden md:flex flex-row items-center w-[87%] justify-between">
-                <img src="/images/logo-mobile.png" className="w-[124.14px] h-[29.37px]" />
+        <div className="w-full justify-center pt-12 hidden md:flex">
+            <div className="flex flex-row items-center w-[87%] justify-between">
+                <img src="images/logo-mobile.png" className="w-[124.14px] h-[29.37px]" />
                 <div className="flex flex-row text-[#FFFFFF] text-[18px] gap-12">
                     <Link href="/">
                         <p className="hover:text-[#20201c] transition duration-300 hover:cursor-pointer">
@@ -20,7 +20,7 @@ const Header = () => {
                     </Link>
                 </div>
 
-                <Button text="Saiba mais" fontSize="16px" width="115.71px" height="40.4px" />
+                <Button text="Entrar em contato" fontSize="16px" width="169px" height="40.4px" />
             </div>
         </div>
     );

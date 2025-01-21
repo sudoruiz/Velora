@@ -63,7 +63,7 @@ const Section3 = () => {
                     </div>
                 </div>
                 <div className="w-full pl-[138.81px] pr-[128.44px] flex flex-col lg:items-start items-center">
-                    <div className="bg-[url('/images/last-velora-card.png')] lg:mb-0 mb-[200px] h-auto min-h-[287.14px] bg-cover flex flex-col lg:flex-row justify-between pr-[9.52px] pl-20 lg:pl-[46.31px]">
+                    <div className="bg-[url('/images/last-velora-card.png')] lg:mb-0 mb-[200px] h-auto min-h-[287.14px] bg-cover flex flex-col lg:flex-row justify-between pr-[9.52px] pl-20 lg:pl-[46.31px] velora:w-[1182px] lg:w-[820px] w-[600px]">
                         <div className="flex flex-col mt-[43.51px]">
                             <p className="text-[#CBD4E7] font-medium text-2xl leading-[29.05px]">
                                 Descubra como o Velora Med

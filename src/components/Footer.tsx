@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 const Footer = () => {
     return (
         <div className="md:block hidden w-full h-[468.4px] bg-[#F2F2F2] px-[120px]">
             <div className="mt-12 h-[74.4px] flex flex-row justify-between border-b border-[#7C8EB2]">
-                <img src="images/logo-footer.png" className="w-[213.07px] h-[50.4px]" />
+                <img src="/images/logo-footer.png" className="w-[213.07px] h-[50.4px]" />
                 <div className="h-12 flex items-center gap-[26px]">
                     <p className="text-[#707070] text-lg">
                         Redes sociais
@@ -16,16 +18,16 @@ const Footer = () => {
             </div>
             <div className="mt-[25px] flex flex-row justify-between">
                 <div className="flex flex-col">
-                    <img src="images/desktop-inovation.png" />
+                    <img src="/images/desktop-inovation.png" />
                     <div className="text-[#707070] w-[288px] mt-8">
                         <p>Endereço: R. Alta, 00- Centro, Natal.</p>
                         <div className="flex flex-col">
                             <div className="flex flex-row items-center mt-6">
-                                <img src="icons/mail-icon.png" className="w-[19px] h-[15px] mr-[14.5px]" alt="Email Icon" />
+                                <img src="/icons/mail-icon.png" className="w-[19px] h-[15px] mr-[14.5px]" alt="Email Icon" />
                                 <p className="text-[#707070] text-[18px]">email@email.com</p>
                             </div>
                             <div className="flex flex-row items-center mt-[29px] ">
-                                <img src="icons/phone-icon.png" className="w-[22.67px] h-[22.67px] mr-[14.5px]" alt="Phone Icon" />
+                                <img src="/icons/phone-icon.png" className="w-[22.67px] h-[22.67px] mr-[14.5px]" alt="Phone Icon" />
                                 <p className="text-[#707070] text-[18px]">Telefone</p>
                             </div>
                         </div>
@@ -36,23 +38,31 @@ const Footer = () => {
                         <h1 className="text-[#202A40] font-bold text-lg">
                             Conteúdo
                         </h1>
-                        <p className="text-lg text-[#707070] cursor-pointer">
-                            Home
-                        </p>
-                        <p className="text-lg text-[#707070] cursor-pointer">
-                            Quem somos
-                        </p>
-                        <p className="text-lg text-[#707070] cursor-pointer">
-                            Blog
-                        </p>
+                        <Link href="/">
+                            <p className="text-lg text-[#707070] cursor-pointer">
+                                Home
+                            </p>
+                        </Link>
+                        <Link href="/who-we-are">
+                            <p className="text-lg text-[#707070] cursor-pointer">
+                                Quem somos
+                            </p>
+                        </Link>
+                        <Link href="/blog">
+                            <p className="text-lg text-[#707070] cursor-pointer">
+                                Blog
+                            </p>
+                        </Link>
                     </div>
                     <div className="flex flex-col">
                         <h1 className="text-[#202A40] font-bold text-lg">
                             Soluções
                         </h1>
-                        <p className="text-lg text-[#707070]">
-                            Velora Med
-                        </p>
+                        <Link href="/velora-med">
+                            <p className="text-lg text-[#707070] cursor-pointer">
+                                Velora Med
+                            </p>
+                        </Link>
                     </div>
                 </div>
             </div>

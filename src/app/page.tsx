@@ -1,15 +1,14 @@
-import Button from "@/components/Button";
-import Card from "@/components/Cards";
-import DesktopCard from "@/components/DesktopCards";
-import FixedSection from "@/components/FixedSection";
+import Card from "@/components/home/Cards";
+import DesktopCard from "@/components/home/DesktopCards";
+import FixedSection from "@/components/home/FixedSection";
 import Footer from "@/components/Footer";
 import FooterMobile from "@/components/FooterMobile";
 import Header from "@/components/Header";
 import HeaderMobile from "@/components/HeaderMobile";
-import InfoCard from "@/components/InfoCards";
-import InfoCardDesktop from "@/components/InfoCardsDesktop";
-import TopicCard from "@/components/TopicCards";
-import TopicCardDesktop from "@/components/TopicCardsDesktop";
+import InfoCard from "@/components/home/InfoCards";
+import InfoCardDesktop from "@/components/home/InfoCardsDesktop";
+import TopicCard from "@/components/home/TopicCards";
+import TopicCardDesktop from "@/components/home/TopicCardsDesktop";
 
 export default function Home() {
   return (

@@ -67,6 +67,9 @@ export default {
       fontFamily: {
         rajdhani: ['var(--font-rajdhani)'],
       },
+      screens: {
+        'velora': '1344px', 
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

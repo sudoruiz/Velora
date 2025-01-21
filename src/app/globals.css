@@ -77,3 +77,27 @@
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+.gradient-background {
+  background: linear-gradient(0deg,
+      rgba(69, 69, 69, 0.45),
+      rgba(69, 69, 69, 0.45)),
+    radial-gradient(19.16% 181.75% at 4.52% -54.38%,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0) 100%);
+}
+
+.background-cameron {
+  background: rgba(253, 253, 254, 0.17);
+}
+
+.velora-question-background {
+  background: linear-gradient(0deg, rgba(69, 69, 69, 0.45), rgba(69, 69, 69, 0.45)),
+    radial-gradient(19.16% 181.75% at 4.52% -54.38%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.gradient-background2 {
+  background: linear-gradient(0deg, rgba(39, 46, 67, 0.45), rgba(39, 46, 67, 0.45)),
+    radial-gradient(42.28% 224.28% at 4.52% -54.38%, rgba(255, 255, 255, 0.34) 0%, rgba(255, 255, 255, 0) 100%);
+  background-blend-mode: normal;
+}

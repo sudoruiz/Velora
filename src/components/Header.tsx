@@ -12,7 +12,16 @@ const Header = () => {
                             Home
                         </p>
                     </Link>
-                    <p className="hover:text-[#20201c] transition duration-300 hover:cursor-pointer">Quem somos</p>
+                    <Link href="who-we-are">
+                        <p className="hover:text-[#20201c] transition duration-300 hover:cursor-pointer">
+                            Quem somos
+                        </p>
+                    </Link>
+                    <Link href="velora-med">
+                        <p className="hover:text-[#20201c] transition duration-300 hover:cursor-pointer">
+                            Velora Med
+                        </p>
+                    </Link>
                     <Link href="/blog">
                         <p className="hover:text-[#20201c] transition duration-300 hover:cursor-pointer">
                             Blog

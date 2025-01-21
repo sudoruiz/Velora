@@ -18,15 +18,23 @@ const FooterMobile = () => {
         <div className="flex flex-row mt-[29.5px]">
           <div className="flex flex-col mr-[45px]">
             <h1 className="text-[#202A40] font-bold text-[18px]">Conteúdo</h1>
-            <p className="text-[#707070] text-[18px]">Home</p>
-            <p className="text-[#707070] text-[18px]">Quem somos</p>
+            <Link href="/">
+              <p className="text-[#707070] text-[18px]">Home</p>
+            </Link>
+            <Link href="who-we-are">
+              <p className="text-[#707070] text-[18px]">Quem somos</p>
+            </Link>
             <Link href="/blog">
               <p className="text-[#707070] text-[18px]">Blog</p>
             </Link>
           </div>
           <div className="flex flex-col">
             <h1 className="text-[#202A40] font-bold text-[18px]">Soluções</h1>
-            <p className="text-[#707070] text-[18px]">Velora Med</p>
+            <Link href="velora-med">
+              <p className="text-[#707070] text-[18px] cursor-pointer">
+                Velora Med
+              </p>
+            </Link>
           </div>
         </div>
       </div>

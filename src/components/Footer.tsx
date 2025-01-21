@@ -38,14 +38,16 @@ const Footer = () => {
                         <h1 className="text-[#202A40] font-bold text-lg">
                             Conteúdo
                         </h1>
-                        <Link href={'/'}>
+                        <Link href="/">
                             <p className="text-lg text-[#707070] cursor-pointer">
                                 Home
                             </p>
                         </Link>
-                        <p className="text-lg text-[#707070] cursor-pointer">
-                            Quem somos
-                        </p>
+                        <Link href="/who-we-are">
+                            <p className="text-lg text-[#707070] cursor-pointer">
+                                Quem somos
+                            </p>
+                        </Link>
                         <Link href="/blog">
                             <p className="text-lg text-[#707070] cursor-pointer">
                                 Blog
@@ -56,9 +58,11 @@ const Footer = () => {
                         <h1 className="text-[#202A40] font-bold text-lg">
                             Soluções
                         </h1>
-                        <p className="text-lg text-[#707070]">
-                            Velora Med
-                        </p>
+                        <Link href="/velora-med">
+                            <p className="text-lg text-[#707070] cursor-pointer">
+                                Velora Med
+                            </p>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@ import "./globals.css";
 
 const rajdhani_init = Rajdhani({
   subsets: ['latin'],
-  weight: ['700'],
+  weight: ['500', '600', '700'],
   variable: '--font-rajdhani',
 });
 

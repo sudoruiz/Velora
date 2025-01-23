@@ -20,7 +20,7 @@ export default function Home() {
         <Header />
         <img src="images/logo-icon-2.png" className="absolute left-0 top-0 opacity-[0.10] hidden md:block" />
         <img src="images/logo-icon-3.png" className="absolute right-0 top-[195.32px] opacity-[0.10] hidden md:block" />
-        <div className="mt-[77.24px] md:mt-[149.6px] md:ml-[126.5px]">
+        <div className="mt-[77.24px] md:mt-[149.6px] md:ml-[200px]">
           <h1 className="text-[#F2F2F2] font-bold text-2xl md:text-5xl">
             Inovação é Resultado.
           </h1>

@@ -3,11 +3,11 @@ import HeaderMobile from "@/app/news/components/HeaderMobile";
 const Section1Mobile = () => {
     return (
         <div className="flex flex-col md:hidden">
-            <div className="bg-[url('/images/background-who-we-are-mobile.png')] h-[502px] bg-cover flex flex-col items-center">
+            <div className="bg-[url('/images/background-who-we-are-mobile.png')] h-[603px] bg-cover flex flex-col items-center">
                 <div className="w-full">
                     <HeaderMobile />
                 </div>
-                <div className="mt-[80.1px] w-[290px] flex flex-col leading-[34px] text-[#F2F2F2] text-2xl">
+                <div className="mt-[24.46px] w-[290px] flex flex-col leading-[34px] text-[#F2F2F2] text-2xl">
                     <h1 className="font-rajdhani font-medium">
                         Surgimos para
                     </h1>
@@ -21,30 +21,30 @@ const Section1Mobile = () => {
                         Nossas soluções são construídas com foco na transformação real.
                     </p>
                 </div>
-                <div className="bg-[url('/images/who-we-are-rectangle.png')] bg-cover h-[43.36px] mt-[95.89px] pr-[18.46px] pl-[15.81px] pt-[3.29px] w-[290px] bg-opacity">
-                    <div className="h-[34.4px] flex flex-row items-center justify-between">
-                        <div className="flex flex-row h-[19.06px] items-center gap-[6.94px]">
-                            <img src="/icons/chip-icon.png" className="w-[16.24px] h-[19.06px]" />
-                            <p className="font-bold text-[5.2px] leading-[6.3px] text-[#F2F2F2]">
-                                Velocidade
-                            </p>
-                        </div>
-                        <div className="h-full w-[2px] bg-[#FFFFFF29]" />
-                        <div className="flex flex-row h-[19.06px] items-center gap-[6.94px]">
-                            <img src="/icons/chip-icon.png" className="w-[16.24px] h-[19.06px]" />
-                            <p className="font-bold text-[5.2px] leading-[6.3px] text-[#F2F2F2]">
-                                Visibilidade
-                            </p>
-                        </div>
-                        <div className="h-full w-[2px] bg-[#FFFFFF29]" />
-                        <div className="flex flex-row h-[19.06px] items-center gap-[6.94px]">
-                            <img src="/icons/chip-icon.png" className="w-[16.24px] h-[19.06px]" />
-                            <p className="font-bold text-[5.2px] leading-[6.3px] text-[#F2F2F2]">
-                                Verocidade
-                            </p>
-                        </div>
+
+                <div className="bg-[url('/images/first-card-velora-mobile.png')] h-[318px] w-72 mt-6 flex flex-col pt-[10px] pl-[20.58px] pr-[30.42px] gap-6">
+                    <div className="flex flex-row items-center gap-6">
+                        <img src="/icons/chip-icon.png" className="w-[56.19px] h-[65.92px]" />
+                        <h1 className="text-2xl text-[#F2F2F2] leading-[29.05px] font-bold">
+                            Velocidade
+                        </h1>
+                    </div>
+                    <div className="border border-[#FFFFFF29]" />
+                    <div className="flex flex-row items-center gap-6">
+                        <img src="/icons/chip-icon.png" className="w-[56.19px] h-[65.92px]" />
+                        <h1 className="text-2xl text-[#F2F2F2] leading-[29.05px] font-bold">
+                            Viabilidade
+                        </h1>
+                    </div>
+                    <div className="border border-[#FFFFFF29]" />
+                    <div className="flex flex-row items-center gap-6">
+                        <img src="/icons/chip-icon.png" className="w-[56.19px] h-[65.92px]" />
+                        <h1 className="text-2xl text-[#F2F2F2] leading-[29.05px] font-bold">
+                            Verocidade
+                        </h1>
                     </div>
                 </div>
+
             </div>
             <div className="bg-[url('/images/solutions-background-mobile.png')] h-[583px] bg-cover items-center flex flex-col">
                 <div className="bg-[url('/images/solutions-rectangle-mobile.png')] h-[519px] w-72 bg-cover mt-8 flex flex-col items-center">

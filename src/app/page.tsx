@@ -14,13 +14,13 @@ export default function Home() {
   return (
     <div className="h-auto flex flex-col">
       <div
-        className="w-full relative bg-[url('/images/image.png')] bg-cover bg-center h-[588px] md:h-[806px] pt-6 px-3 md:px-0 flex flex-col"
+        className="w-full relative bg-[url('/images/image-mobile.png')] md:bg-[url('/images/image.png')] bg-cover bg-center h-[723px] md:h-[806px] pt-6 px-3 md:px-0 flex flex-col"
       >
         <HeaderMobile />
         <Header />
         <img src="images/logo-icon-2.png" className="absolute left-0 top-0 opacity-[0.10] hidden md:block" />
         <img src="images/logo-icon-3.png" className="absolute right-0 top-[195.32px] opacity-[0.10] hidden md:block" />
-        <div className="mt-[77.24px] md:mt-[149.6px] md:ml-[200px]">
+        <div className="mt-[77.24px] md:mt-[149.6px] lg:ml-[200px]">
           <h1 className="text-[#F2F2F2] font-bold text-2xl md:text-5xl">
             Inovação é Resultado.
           </h1>
@@ -28,8 +28,49 @@ export default function Home() {
             Investimos em soluções tecnológicas que constroem o resultado do amanhã.
           </p>
         </div>
-        <div className="w-full flex justify-center mt-[126.01px]">
+        <div className="w-full flex justify-center md:mt-[126.01px]">
           <FixedSection />
+          <div className="relative mt-2 md:hidden">
+            <img src="/images/fixed-card-mobile.png" className="" />
+            <button className="rounded-lg border border-[#C7C7C77D] text-[#F2F2F2] leading-[19.38px] w-[115.71px] h-[40.41px] rounded-br-2xl absolute top-0 left-0 ">
+              Saiba mais
+            </button>
+            <div className="absolute top-[76px] left-3 flex flex-col">
+              <div className="flex flex-row gap-6">
+                <img src="/icons/chip-icon.png" className="w-[56.19px] h-[65.92px]" />
+                <div className="flex flex-col gap-4">
+                  <h1 className="font-bold font-lg text-[#F2F2F2] leading-[21.78px]">
+                    Inovação viável
+                  </h1>
+                  <p className="text-[#F2F2F2] leading-[19.36px]">
+                    Investimos em soluções práticas e viaveis.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-row mt-3 gap-6">
+                <img src="/icons/chip-icon.png" className="w-[56.19px] h-[65.92px]" />
+                <div className="flex flex-col gap-4">
+                  <h1 className="font-bold font-lg text-[#F2F2F2] w-[100px] leading-[21.78px]">
+                    Tecnologia acessível
+                  </h1>
+                  <p className="text-[#F2F2F2] leading-[19.36px]">
+                    Acreditamos em um mundo com tecnologia acessível para todos.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-row mt-3 gap-6">
+                <img src="/icons/chip-icon.png" className="w-[56.19px] h-[65.92px]" />
+                <div className="flex flex-col gap-4">
+                  <h1 className="font-bold font-lg text-[#F2F2F2] w-[100px] leading-[21.78px]">
+                    Resultados mensuraveis
+                  </h1>
+                  <p className="text-[#F2F2F2] leading-[19.36px]">
+                    Soluções praticas que trazem resultado!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <img
           src="/images/logo-icon-mobile.png"
@@ -154,9 +195,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-[url('/images/image2.png')] bg-cover bg-center h-[1260px] pt-6 md:pt-[165px] px-3 flex flex-col items-center">
+      <div className="bg-[url('/images/image2.png')] bg-cover bg-center h-auto min-h-[1260px] pt-6 md:pt-[165px] px-3 flex flex-col items-center">
         <div
-          className="relative"
+          className="relative flex flex-col items-center"
         >
           <div className="md:w-full md:flex md:justify-center">
             <div className="w-[288px] md:w-[730px] mt-8 flex flex-col">
@@ -246,7 +287,25 @@ export default function Home() {
               </p>
               <img src="icons/arrow-icon.png" className="w-6 h-4 hidden md:block cursor-pointer" />
             </div>
-            <img src="images/colorful-logo.png" className="absolute left-[73.5%] top-[28.81px] opacity-[0.30]"/>
+            <img src="images/colorful-logo.png" className="absolute left-[73.5%] top-[28.81px] opacity-[0.30]" />
+          </div>
+          <div className="mt-8  relative lg:hidden block w-72 mb-4">
+            <img src="images/card-home-mobile.png" className="opacity-[0.70] h-[420px]" />
+            <div className="absolute top-[73.67px] left-[23px] w-[242px]">
+              <p className="font-medium text-[#0A0A0A] leading-[19.36px]">
+                Transforme a gestão da sua empresa e
+              </p>
+              <h1 className="font-medium text-[#0A0A0A] text-2xl leading-[29.05px]">
+                acelere sua jornada para a inovação.
+              </h1>
+            </div>
+            <div className="absolute top-[195px] left-[33px] w-[167px] flex flex-row items-center gap-[10px]">
+              <p className="text-[18px] text-[#F2F2F2] hover:text-[#3b3b3b] transition-colors duration-300 cursor-pointer">
+                Fale conosco
+              </p>
+              <img src="icons/arrow-icon.png" className="w-6 h-4 hidden md:block cursor-pointer" />
+            </div>
+            <img src="images/colorful-logo.png" className="absolute left-[81px] top-[260.5px] opacity-[0.30] w-[126px] h-[143px]" />
           </div>
         </div>
       </div>

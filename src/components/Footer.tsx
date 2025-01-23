@@ -3,16 +3,16 @@ import Link from "next/link";
 const Footer = () => {
     return (
         <div className="md:block hidden w-full h-[468.4px] bg-[#F2F2F2] px-[120px]">
-            <div className="mt-12 h-[74.4px] flex flex-row justify-between border-b border-[#7C8EB2]">
+            <div className="pt-12 h-[122.4px] flex flex-row justify-between border-b border-[#7C8EB2]">
                 <img src="/images/logo-footer.png" className="w-[213.07px] h-[50.4px]" />
                 <div className="h-12 flex items-center gap-[26px]">
                     <p className="text-[#707070] text-lg">
                         Redes sociais
                     </p>
                     <div className="flex gap-[26px]">
-                        <div className="bg-[#7C8EB2] w-12 h-12" />
-                        <div className="bg-[#7C8EB2] w-12 h-12" />
-                        <div className="bg-[#7C8EB2] w-12 h-12" />
+                        <img src="/icons/whatsapp.png" />
+                        <img src="/icons/instagram.png" />
+                        <img src="/icons/discord.png" />
                     </div>
                 </div>
             </div>

@@ -38,7 +38,7 @@ const Section3Mobile = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-[url('/images/last-background-mobile.png')] h-[522px] bg-cover items-center flex flex-col">
+            <div className="bg-[url('/images/last-background-mobile.png')] h-[781.18px] bg-cover items-center flex flex-col">
                 <h1 className="text-white font-semibold text-2xl leading-[29.05px] text-center mt-8 w-[270px]">
                     Transformação digital
                     para clinicas inteligentes.
@@ -62,23 +62,23 @@ const Section3Mobile = () => {
                     </div>
                 </div>
                 <div className="w-full pl-[16.8px] pr-[18.16px]">
-                    <div className="bg-[url('/images/last-velora-card.png')] h-[72px] bg-cover flex flex-row justify-between pr-[9.52px] pl-[46.31px]">
-                        <div className="flex flex-col mt-[10.67px]">
-                            <p className="text-[#CBD4E7] font-medium text-[6px] leading-[7.26px]">
+                    <div className="bg-[url('/images/card-velora-mobile.png')] h-[318px] bg-cover flex flex-col items-center mt-[24.71px]">
+                        <div className="flex flex-col mt-[30px]">
+                            <p className="text-[#CBD4E7] font-medium leading-[19.36px]">
                                 Descubra como o Velora Med
                             </p>
-                            <h1 className="leading-[12.1px] font-medium text-[10px] w-[110px] text-[#CBD4E7]">
+                            <h1 className="leading-[29.05px] font-medium text-2xl w-[250px] text-[#CBD4E7]">
                                 pode transformar a gestão da sua clínica.
                             </h1>
                             <div className="flex flex-row items-center gap-[2.49px] mt-[10.2px]">
-                                <p className="text-[4.5px] leading-[5.45px] text-[#F2F2F2] cursor-pointer">
+                                <p className="leading-[19.36px] text-[#F2F2F2] cursor-pointer">
                                     Fale conosco
                                 </p>
-                                <img src="/icons/last-velora-arrow-icon.png" className="w-2 h-[6px] cursor-pointer" />
+                                <img src="/icons/last-velora-arrow-icon.png" className="w-4 h-[6px] cursor-pointer" />
                             </div>
                         </div>
                         <div className="relative">
-                            <img src="/images/zenbook.png" className="w-[69.92px] h-[40.05px] mt-[15.18px]" />
+                            <img src="/images/zenbook.png" className="w-[205.49px] h-[117.71px] mt-[22.68px]" />
                         </div>
                     </div>
                 </div>

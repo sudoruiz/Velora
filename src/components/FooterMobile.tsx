@@ -10,9 +10,9 @@ const FooterMobile = () => {
       <div className="w-[288px]">
         <p className="text-[#707070] text-[18px]">Redes sociais</p>
         <div className="flex flex-row w-[196px] justify-between mt-[26px]">
-          <div className="bg-[#7C8EB2] w-12 h-12" />
-          <div className="bg-[#7C8EB2] w-12 h-12" />
-          <div className="bg-[#7C8EB2] w-12 h-12" />
+          <img src="/icons/whatsapp.png" />
+          <img src="/icons/instagram.png" />
+          <img src="/icons/discord.png" />
         </div>
 
         <div className="flex flex-row mt-[29.5px]">

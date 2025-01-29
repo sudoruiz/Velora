@@ -1,10 +1,10 @@
 const Section2 = () => {
     return (
-        <div className="hidden bg-[url('/images/image-blog.png')] h-[451px] bg-cover bg-center mt-[50px] lg:mt-[114.76px] md:flex justify-center items-center">
+        <div className="hidden bg-[url('/images/new-background-newsletter.png')] h-[451px] bg-cover bg-center mt-[50px] lg:mt-[114.76px] md:flex justify-center items-center">
             <div className="relative flex flex-row">
                 <img src="images/blog-rectangle.png" className="opacity-[0.68]" />
                 <div className="absolute top-[44.98px] left-[56.1px] flex flex-col">
-                    <h1 className="font-rajdhani text-5xl leading-[61.25px] text-[#F2F2F2] w-[406.6px]">
+                    <h1 className="font-rajdhani text-5xl leading-[61.25px] text-[#F2F2F2] w-[406.6px] font-bold">
                         Assine Nossa Newsletter
                     </h1>
                     <p className="text-[#A9A9A9] text-lg leading-[21.78px] w-[380px] mt-0 lg:mt-8">

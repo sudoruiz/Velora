@@ -20,7 +20,7 @@ const TopicCardDesktop = ({ number, title, text, textWidth }: TopicCardDesktopPr
         {number}
       </h1>
 
-      <h1 className="absolute left-[32.99px] top-[142.87px] text-[#F2F2F2] font-rajdhani text-[17.04px] md:text-2xl">
+      <h1 className="absolute left-[32.99px] top-[142.87px] text-[#F2F2F2] font-rajdhani font-bold text-[17.04px] md:text-2xl">
         {title}
       </h1>
 

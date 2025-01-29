@@ -6,11 +6,11 @@ interface NewsMobileProps {
 
 const NewsMobile = ({ title, date, text }: NewsMobileProps) => {
     return (
-        <div className="mt-[141px] flex flex-col md:hidden items-center">
-            <h1 className="text-[#0A0A0A] font-rajdhani leading-[20.42px] w-72">
+        <div className="pt-[141px] flex flex-col md:hidden items-center bg-[#F2F2F2]">
+            <h1 className="text-[#0A0A0A] font-rajdhani leading-[20.42px] w-[282px]">
                 {title}
             </h1>
-            <div className="w-72 mt-[16.5px]">
+            <div className="w-[282px] mt-[16.5px]">
                 <div className="flex flex-row gap-[13px]">
                     <img src="/icons/calendar-icon-mobile.png" className="w-3 h-[13.33px]" />
                     <p className="text-xs text-[#5E5E5E] leading-[14.52px]">

@@ -6,9 +6,9 @@ interface NewsProps {
 
 const News = ({ title, date, text }: NewsProps) => {
     return (
-        <div className="mt-[347px] px-[271.5px] md:flex flex-col hidden items-center">
+        <div className="pt-[347px] px-[271.5px] md:flex flex-col hidden items-center bg-[#F2F2F2]">
             <div className="flex flex-col lg:flex-row justify-between items-end">
-                <h1 className="font-rajdhani text-[#0A0A0A] leading-[61.25px] text-5xl w-[721px]">
+                <h1 className="font-rajdhani text-[#0A0A0A] leading-[61.25px] text-5xl w-[730px] font-bold">
                     {title}
                 </h1>
                 <div className="flex flex-row gap-[15px] items-center h-8">

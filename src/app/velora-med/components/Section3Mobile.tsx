@@ -78,6 +78,7 @@ const Section3Mobile = () => {
                             </div>
                         </div>
                         <div className="relative">
+                            <img src="/images/last-logo-2.png" className="absolute inset-0 mix-blend-overlay w-[171.43px] h-[200.73px] top-[-32px] left-[10px]" />
                             <img src="/images/zenbook.png" className="w-[205.49px] h-[117.71px] mt-[22.68px]" />
                         </div>
                     </div>

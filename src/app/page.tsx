@@ -195,7 +195,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-[url('/images/image2.png')] bg-cover bg-center h-auto min-h-[1260px] pt-6 md:pt-[165px] px-3 flex flex-col items-center">
+      <div className="bg-[url('/images/speed-up-background-mobile.png')] md:bg-[url('/images/background-home-29-01.png')] bg-cover bg-center h-auto min-h-[1260px] pt-6 md:pt-[165px] px-3 flex flex-col items-center">
         <div
           className="relative flex flex-col items-center"
         >
@@ -274,10 +274,10 @@ export default function Home() {
           <div className="mt-[120px] ml-4 relative hidden lg:block">
             <img src="images/colorful-rectangle.png" className="opacity-[0.40] h-[304px]" />
             <div className="absolute top-[73.67px] left-[46.31px] w-[470px]">
-              <p className="font-medium text-[#0A0A0A] text-2xl leading-[29.05px]">
+              <p className="font-medium text-white text-2xl leading-[29.05px]">
                 Transforme a gestão da sua empresa e
               </p>
-              <h1 className="font-medium text-[#0A0A0A] text-[40px] leading-[48.8px]">
+              <h1 className="font-medium text-white text-[40px] leading-[48.8px]">
                 acelere sua jornada para a inovação.
               </h1>
             </div>
@@ -287,15 +287,15 @@ export default function Home() {
               </p>
               <img src="icons/arrow-icon.png" className="w-6 h-4 hidden md:block cursor-pointer" />
             </div>
-            <img src="images/colorful-logo.png" className="absolute left-[73.5%] top-[28.81px] opacity-[0.30]" />
+            <img src="images/colorful-logo.png" className="absolute left-[73.5%] top-[28.81px] opacity-[0.65]" />
           </div>
           <div className="mt-8  relative lg:hidden block w-72 mb-4">
             <img src="images/card-home-mobile.png" className="opacity-[0.70] h-[420px]" />
             <div className="absolute top-[73.67px] left-[23px] w-[242px]">
-              <p className="font-medium text-[#0A0A0A] leading-[19.36px]">
+              <p className="font-medium text-white leading-[19.36px]">
                 Transforme a gestão da sua empresa e
               </p>
-              <h1 className="font-medium text-[#0A0A0A] text-2xl leading-[29.05px]">
+              <h1 className="font-medium text-white text-2xl leading-[29.05px]">
                 acelere sua jornada para a inovação.
               </h1>
             </div>
@@ -303,9 +303,9 @@ export default function Home() {
               <p className="text-[18px] text-[#F2F2F2] hover:text-[#3b3b3b] transition-colors duration-300 cursor-pointer">
                 Fale conosco
               </p>
-              <img src="icons/arrow-icon.png" className="w-6 h-4 hidden md:block cursor-pointer" />
+              <img src="icons/speed-up-arrow-mobile.png" className="md:block cursor-pointer" />
             </div>
-            <img src="images/colorful-logo.png" className="absolute left-[81px] top-[260.5px] opacity-[0.30] w-[126px] h-[143px]" />
+            <img src="images/colorful-logo.png" className="absolute left-[81px] top-[260.5px] opacity-[0.65] w-[126px] h-[143px]" />
           </div>
         </div>
       </div>

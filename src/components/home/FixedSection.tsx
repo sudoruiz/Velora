@@ -49,7 +49,7 @@ const FeatureBlock = ({
   <div
     className={`absolute top-[47px] ${position} w-[26.2%] h-[76px] flex flex-row`}
   >
-    <img src="icons/chip-icon.png" className="w-12 h-[56.32px]" alt="Icon" />
+    <img src="icons/chip-minimalist.png" className="w-12 h-[56.32px]" alt="Icon" />
     <div className="flex flex-col ml-6">
       <h1 className="font-bold text-[#F2F2F2] text-[18px]">
         {title}

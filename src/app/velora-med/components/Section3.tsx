@@ -79,8 +79,10 @@ const Section3 = () => {
                             </div>
                         </div>
                         <div className="relative">
-                            <img src="/images/zenbook.png" className="lg:w-[343.52px] h-[196.77px] mt-[44.02px]" />
+                            <img src="/images/last-logo-2.png" className="absolute inset-0 top-[30px] left-[65px] mix-blend-overlay" />
+                            <img src="/images/zenbook.png" className="lg:w-[343.52px] h-[196.77px] mt-[44.02px] relative" />
                         </div>
+
                     </div>
                 </div>
             </div>

@@ -14,13 +14,13 @@ export default function Home() {
   return (
     <div className="h-auto flex flex-col">
       <div
-        className="w-full relative bg-[url('/images/image-mobile.png')] md:bg-[url('/images/image.png')] bg-cover bg-center h-[723px] md:h-[806px] pt-6 px-3 md:px-0 flex flex-col"
+        className="w-full relative bg-[url('/images/image-mobile.png')] md:bg-[url('/images/image.png')] bg-cover bg-center h-[723px] md:h-[806px] pt-6 px-3 md:px-0 flex flex-col md:items-start items-center"
       >
         <HeaderMobile />
         <Header />
         <img src="images/logo-icon-2.png" className="absolute left-0 top-0 opacity-[0.10] hidden md:block" />
         <img src="images/logo-icon-3.png" className="absolute right-0 top-[195.32px] opacity-[0.10] hidden md:block" />
-        <div className="mt-[77.24px] md:mt-[149.6px] lg:ml-[200px]">
+        <div className="mt-[77.24px] md:mt-[149.6px] w-72 md:w-full md:pl-[12.6%]">
           <h1 className="text-[#F2F2F2] font-bold text-2xl md:text-5xl">
             Inovação é Resultado.
           </h1>
@@ -31,15 +31,15 @@ export default function Home() {
         <div className="w-full flex justify-center md:mt-[126.01px]">
           <FixedSection />
           <div className="relative mt-2 md:hidden">
-            <img src="/images/fixed-card-mobile.png" className="" />
-            <button className="rounded-lg border border-[#C7C7C77D] text-[#F2F2F2] leading-[19.38px] w-[115.71px] h-[40.41px] rounded-br-2xl absolute top-0 left-0 ">
+            <img src="/images/fixed-card-mobile.png" className="fixed-card-blur z-20" />
+            <button className="find-out-more rounded-lg border border-[#C7C7C77D] text-[#F2F2F2] leading-[19.36px] w-[115.71px] h-[32.48px] rounded-br-2xl absolute top-0 left-0 ">
               Saiba mais
             </button>
-            <div className="absolute top-[76px] left-3 flex flex-col">
-              <div className="flex flex-row gap-6">
-                <img src="/icons/chip-icon.png" className="w-[56.19px] h-[65.92px]" />
-                <div className="flex flex-col gap-4">
-                  <h1 className="font-bold font-lg text-[#F2F2F2] leading-[21.78px]">
+            <div className="absolute top-[76px] left-3 flex flex-col gap-8">
+              <div className="flex flex-row gap-6 items-center">
+                <img src="/icons/chip-minimalist.png" className="w-[56.19px] h-[65.92px]" />
+                <div className="flex flex-col gap-2">
+                  <h1 className="font-bold font-lg text-[#F2F2F2] leading-[16.94px] text-sm">
                     Inovação viável
                   </h1>
                   <p className="text-[#F2F2F2] leading-[19.36px]">
@@ -47,10 +47,10 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-row mt-3 gap-6">
-                <img src="/icons/chip-icon.png" className="w-[56.19px] h-[65.92px]" />
-                <div className="flex flex-col gap-4">
-                  <h1 className="font-bold font-lg text-[#F2F2F2] w-[100px] leading-[21.78px]">
+              <div className="flex flex-row gap-6 items-center">
+                <img src="/icons/chip-minimalist.png" className="w-[56.19px] h-[65.92px]" />
+                <div className="flex flex-col gap-2">
+                  <h1 className="font-bold font-lg text-[#F2F2F2] w-[172px] leading-[16.94px] text-sm">
                     Tecnologia acessível
                   </h1>
                   <p className="text-[#F2F2F2] leading-[19.36px]">
@@ -58,10 +58,10 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-row mt-3 gap-6">
-                <img src="/icons/chip-icon.png" className="w-[56.19px] h-[65.92px]" />
-                <div className="flex flex-col gap-4">
-                  <h1 className="font-bold font-lg text-[#F2F2F2] w-[100px] leading-[21.78px]">
+              <div className="flex flex-row gap-6 items-center">
+                <img src="/icons/chip-minimalist.png" className="w-[56.19px] h-[65.92px]" />
+                <div className="flex flex-col gap-2">
+                  <h1 className="font-bold font-lg text-[#F2F2F2] w-[170px] leading-[16.94px] text-sm">
                     Resultados mensuraveis
                   </h1>
                   <p className="text-[#F2F2F2] leading-[19.36px]">
@@ -74,7 +74,7 @@ export default function Home() {
         </div>
         <img
           src="/images/logo-icon-mobile.png"
-          className="absolute bottom-0 right-0 md:hidden block"
+          className="absolute bottom-0 right-0 md:hidden block opacity-[0.10] top-[161px] z-10 fixed-card-blur"
         />
       </div>
       <div className="bg-[#0A0A0A] min-h-screen flex flex-col lg:flex-row xl:justify-center items-center md:items-start pt-8 relative">
@@ -272,7 +272,7 @@ export default function Home() {
             />
           </div>
           <div className="mt-[120px] ml-4 relative hidden lg:block">
-            <img src="images/colorful-rectangle.png" className="opacity-[0.70] h-[304px]" />
+            <img src="images/colorful-rectangle.png" className="opacity-[0.40] h-[304px]" />
             <div className="absolute top-[73.67px] left-[46.31px] w-[470px]">
               <p className="font-medium text-[#0A0A0A] text-2xl leading-[29.05px]">
                 Transforme a gestão da sua empresa e

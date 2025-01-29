@@ -36,7 +36,7 @@ interface NewsDetailProps {
   
     return (
       <div className="w-full h-auto">
-        <div className="bg-[url('/images/image-news-detail-mobile.png')] md:bg-[url('/images/image-news-detail.png')] h-[156px] md:h-[487px] bg-cover pt-2 md:pt-12">
+        <div className="bg-[url('/images/background-news-mobile.png')] md:bg-[url('/images/background-news.png')]  h-[156px] md:h-[533px] bg-cover pt-2 md:pt-12">
           <Header />
           <HeaderMobile />
           <div className="absolute w-full mt-[34.24px] md:mt-[88.6px] flex justify-center">

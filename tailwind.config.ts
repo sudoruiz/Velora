@@ -66,6 +66,7 @@ export default {
       },
       fontFamily: {
         rajdhani: ['var(--font-rajdhani)'],
+        albertSans: ['var(--font-albert-sans)'],
       },
       screens: {
         'velora': '1344px', 

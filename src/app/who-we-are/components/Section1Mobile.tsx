@@ -40,7 +40,7 @@ const Section1Mobile = () => {
                     <div className="flex flex-row items-center gap-6">
                         <img src="/icons/chip-icon.png" className="w-[56.19px] h-[65.92px]" />
                         <h1 className="text-2xl text-[#F2F2F2] leading-[29.05px] font-bold">
-                            Verocidade
+                            Verdade
                         </h1>
                     </div>
                 </div>

@@ -39,7 +39,7 @@ const Section1 = () => {
                             <div className="flex flex-row h-[65.92px] items-center gap-6">
                                 <img src="/icons/chip-icon.png" className="w-[56.19px] h-[65.92px]" />
                                 <p className="font-bold text-2xl leading-[29.05px] text-[#F2F2F2]">
-                                    Verocidade
+                                    Verdade
                                 </p>
                             </div>
                         </div>

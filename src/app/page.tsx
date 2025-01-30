@@ -205,7 +205,7 @@ export default function Home() {
                 Nossa Abordagem
               </p>
               <h1 className="text-[#F2F2F2] font-rajdhani text-2xl md:text-[48px] md:w-full md:mt-3">
-                Velocidade, veracidade e viabilidade
+                Velocidade, verdade e viabilidade
               </h1>
             </div>
           </div>

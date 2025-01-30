@@ -41,7 +41,7 @@ const Section1Mobile = () => {
                         <img src="/icons/chip-icon.png" className="w-[56.19px] h-[65.92px]" />
                         <h1 className="text-2xl text-[#F2F2F2] leading-[29.05px] font-bold">
                             Verdade
-                        </h1>
+                        </h1> 
                     </div>
                 </div>
 
